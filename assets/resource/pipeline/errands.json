@@ -1,0 +1,27 @@
+{
+    "Errands_Enter_Page": {
+        "recognition": "TemplateMatch",
+        "template": "Home01_1050_401_52_77__1000_351_152_177.png",
+        "roi": [
+            1050,
+            401,
+            52,
+            77
+        ],
+        "action": "Click",
+        "next": [
+            "Errands_Gather_Rewards"
+        ]
+    },
+    "Errands_Gather_Rewards": {
+        "recognition": "TemplateMatch",
+        "template": "Errands01_58_660_138_35__8_585_238_135.png",
+        "roi": [
+            58,
+            660,
+            138,
+            35
+        ],
+        "action": "Click"
+    }
+}
