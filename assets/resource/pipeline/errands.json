@@ -63,9 +63,8 @@
             52
         ],
         "next": [
-            "Errands_Gather_Rewards_Confirm_02_Single",
-            "Errands_Gather_Rewards_Confirm_02_Multiple",
-            "Errands_Gather_Rewards_Confirm_03"
+            "Errands_Gather_Rewards_Confirm_03",
+            "Errands_Gather_Rewards_Confirm_02_Single"
         ]
     },
     "Errands_Gather_Rewards_Confirm_02_Multiple": {
@@ -79,8 +78,8 @@
         ],
         "action": "Click",
         "next": [
-            "Errands_Gather_Rewards_Confirm_02_Multiple",
-            "Errands_Gather_Rewards_Confirm_03"
+            "Errands_Gather_Rewards_Confirm_03",
+            "Errands_Gather_Rewards_Confirm_02_Multiple"
         ]
     },
     "Errands_Gather_Rewards_Confirm_03": {
