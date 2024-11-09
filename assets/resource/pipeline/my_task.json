@@ -1,5 +1,76 @@
 {
-    "MyTask1": {},
+    "StartUpAndClickButton": {
+        "next": [
+            "Click_Button",
+            "Flag_NoButton"
+        ]
+    },
+    "Sub_StartUp": {
+        "next": [
+            "Flag_InApp"
+        ]
+    },
+    "Sub_StartApp": {
+        "action": "StartApp"
+    },
+    "Flag_InApp": {
+        "recognition": "DirectHit"
+    },
+    "Flag_NoButton": {
+        "recognition": "OCR",
+        "expected": [
+            "华片"
+        ],
+        "action": "Click"
+    },
+    "Click_Button": {
+        "recognition": "OCR",
+        "expected": [
+            "结晶",
+            "香木"
+        ],
+        "order_by": "Vertical",
+        "action": "Click"
+    },
+    "Peek_OCR": {
+        "recognition": "OCR",
+        "expected": [
+            "结晶",
+            "香木",
+            "[[:digit:]]{2}:[[:digit:]]{2}:[[:digit:]]{2}"
+        ],
+        "order_by": "Vertical",
+        "action": "DoNothing"
+    },
+    "Always_Fail_Task": {
+        "recognition": "DirectHit",
+        "inverse": true
+    },
+    "DEBUG_LOOP": {
+        "next": [
+            "Always_Fail_Task"
+        ],
+        "interrupt": [
+            "Peek_OCR"
+        ]
+    },
+    "Swipe_Tabs_Left": {
+        "recognition": "DirectHit",
+        "action": "Swipe",
+        "begin": [
+            845,
+            636,
+            2,
+            23
+        ],
+        "end": [
+            102,
+            636,
+            2,
+            23
+        ],
+        "duration": 10000
+    },
     "MyTask2": {},
     "MyTask3": {}
 }

@@ -448,4 +448,7 @@ install
 tools/ImageCropper/**/*.png
 
 # VS Code
-.vscode/
+.vscode
+
+# 
+.nicegui
