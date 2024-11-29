@@ -7,6 +7,7 @@ target_link_libraries(
     PUBLIC
         MaaFramework::MaaFramework
         MaaFramework::MaaToolkit
+        meojson::meojson
 )
 
 file(GLOB maafw_dlls "${PROJECT_SOURCE_DIR}/deps/MaaFramework/bin/*.dll")

@@ -7,6 +7,7 @@
 
 #include <MaaFramework/MaaAPI.h>
 #include <MaaToolkit/MaaToolkitAPI.h>
+#include <meojson/json.hpp>
 
 namespace MaaLostWord
 {
