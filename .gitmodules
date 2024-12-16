@@ -3,4 +3,4 @@
 	url = https://github.com/MaaXYZ/MaaCommonAssets
 [submodule "deps/MaaFramework"]
 	path = deps/MaaFramework
-	url = https://github.com/Van493/Maafw-prebuilt.git
+	url = https://github.com/MaaLW/Maafw-prebuilt.git
